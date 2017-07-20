@@ -225,7 +225,7 @@ header .header-content .header-content-inner p {
 	text-transform:uppercase;
 }
 .service-icon{
-	background:url(../img/services-sprite.png);
+	background:url(../images/services-sprite.png);
 	display:block;
 }
 .service-box h3
@@ -557,7 +557,7 @@ body {
 }
 .discover-more span
 {
-	background:url(../img/mouse-icon.png) no-repeat;
+	background:url(../images/mouse-icon.png) no-repeat;
 	width:22px;
 	height:32px;
 	margin:auto;
@@ -565,7 +565,7 @@ body {
 }
 .discover-more span:hover 
 {
-	background:url(../img/mouse-icon.png) no-repeat 0 -33px;
+	background:url(../images/mouse-icon.png) no-repeat 0 -33px;
 	width:22px;
 	height:32px;
 	margin:auto;
@@ -639,7 +639,7 @@ body {
 	width:97px;
 	height:88px;
 	display:block;
-	background:url(../img/appl-sprite.png) no-repeat;
+	background:url(../images/appl-sprite.png) no-repeat;
 	margin: 0 0 0 4px;
 }
 .custom span
@@ -647,14 +647,14 @@ body {
 	width:97px;
 	height:88px;
 	display:block;
-	background:url(../img/appl-sprite.png) no-repeat 0 -90px;
+	background:url(../images/appl-sprite.png) no-repeat 0 -90px;
 }
 .mobile span
 {
 	width:97px;
 	height:88px;
 	display:block;
-	background:url(../img/appl-sprite.png) no-repeat -1px -180px;
+	background:url(../images/appl-sprite.png) no-repeat -1px -180px;
 }
 .container-about
 {
@@ -662,15 +662,15 @@ body {
 }
 .about-us-bg
 {
-	background:url(../img/about-us-bg.png);
+	background:url(../images/about-us-bg.png);
 }
 .mission-bg
 {
-	background:url(../img/mission.png);
+	background:url(../images/mission.png);
 }
 .vision-bg
 {
-	background:url(../img/vision.png);
+	background:url(../images/vision.png);
 }
 .about-block
 {
@@ -678,7 +678,7 @@ body {
 }
 .about-block span
 {
-	background:url(../img/about-icon.png);
+	background:url(../images/about-icon.png);
 	display:block;
 	width:114px;
 	height:114px;
@@ -689,7 +689,7 @@ body {
 }
 .mission-block span
 {
-	background:url(../img/mission-icon.png);
+	background:url(../images/mission-icon.png);
 	display:block;
 	width:114px;
 	height:114px;
@@ -700,7 +700,7 @@ body {
 }
 .vision-block span
 {
-	background:url(../img/vision-icon.png);
+	background:url(../images/vision-icon.png);
 	display:block;
 	width:113px;
 	height:113px;
@@ -810,10 +810,44 @@ body {
 	position:relative;
 	margin:10px 0;
 }
+
+.connect-block{
+	height: 200px;
+    position: relative;
+    margin: 10px 0;
+    padding: 53px;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 3px;
+}
+
+.connect-block{
+	
+}
+
+.facebook{
+	background: #3b579d;
+}
+
+.twitter{
+	background: #2caae1;
+}
+
+.linkedin{
+	background: #007bb6;
+}
+
+.address{
+	background: #34495e;
+    padding: 35px;
+    font-size: 15px;
+}
+
 #address-map
 {
 	padding:100px 0;
-	background:url(../img/map.png) no-repeat;
+	background:url(../images/map.png) no-repeat;
 	background-size:cover;
 }
 .address-block
@@ -827,7 +861,7 @@ body {
 	height:32px;
 	display:block;
 	margin:auto;
-	background:url(../img/locator.png);
+	background:url(../images/locator.png);
 }
 .add-red
 {
