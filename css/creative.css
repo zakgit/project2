@@ -164,8 +164,14 @@ aside {
     transition: all .35s;
 }
 
+.navbar-default.navbar-fixed-top{
+	min-height: 50px;
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+    border: 0;
+}
+
 .navbar-default .navbar-header .navbar-brand {
-    
+    padding: 0 15px;
     font-family: Lato, Arial, Sans;	
     font-weight: 700;
     color: #f05f40;
@@ -200,7 +206,7 @@ aside {
 }
 .navbar-nav li a
 {
-	padding:40px 15px ;
+	padding:15px;
 }
 .navbar-nav>li.active{
 	border-bottom:solid 4px #d31a1a;
@@ -257,7 +263,7 @@ header .header-content .header-content-inner p {
 		height: 640px;
 		background-size: 100% 100%;
 		width: 100%;
-	    margin: 105px 0 0;
+	    margin: 50px 0 0;
     }
 
     header .header-content {
@@ -693,12 +699,25 @@ body {
 .orange-bg{
 	background: #fcb63e;
 }
+
+.red-bg{
+	background: #E96656;
+}
+
+.yellow-bg{
+	background: #F7D861;
+}
+
 .cyan-bg{
 	background: #00a79d;
 }
 
+.inor-green-bg {
+    background: #98c73a;
+}
+
 .blue-bg{
-	background: #25aae1;
+	background: #3AB0E2;
 }
 
 .purple-bg{
