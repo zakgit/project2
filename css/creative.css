@@ -673,7 +673,7 @@ body {
 }
 #application
 {
-	padding:55px 0 0;
+	padding:0 0 0;
 	color:#ffffff;
 }
 #application h3
@@ -692,8 +692,12 @@ body {
 }
 
 .color-box-content {
-    padding: 145px 100px 100px 100px;
+    padding: 95px 100px 100px 100px;
     height: 400px;
+}
+
+.intro-services-img{
+    height: 50px;
 }
 
 .orange-bg{
@@ -1053,7 +1057,7 @@ body {
 }
 #services,#about,#product
 {
-	padding:55px 0;
+	padding:0;
 }
 
 #services, #about, #stay-connected{
@@ -1123,7 +1127,8 @@ body {
     }
 	.navbar-header
 	{
-		height:100px;
+        height: 50px;
+        box-shadow: 0 0 10px #999;
 	}
 	.navbar-nav li a {
 		padding:10px;
@@ -1226,7 +1231,7 @@ font-size:12px;
 	}
 
 	#application {
-	    padding: 115px 0 0;
+	    padding: 70px 0 0;
 	    color: #ffffff;
 	}
 
