@@ -1,0 +1,48 @@
+<!-- Do not change the code! -->
+<!-- <a id="foxyform_embed_link_891659" href="http://www.foxyform.com/">foxyform</a>
+<script type="text/javascript">
+(function(d, t){
+   var g = d.createElement(t),
+       s = d.getElementsByTagName(t)[0];
+   g.src = "http://www.foxyform.com/js.php?id=891659&sec_hash=1296e4687fc&width=350px";
+   s.parentNode.insertBefore(g, s);
+}(document, "script"));
+</script> -->
+<!-- Do not change the code! -->
+
+<!-- <a id='anchor_c4ZcprAXxM77771Rb' href='http://www.emailmeform.com/builder/form/c4ZcprAXxM77771Rb'>Lightbox Link</a><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script><script type="text/javascript">if (typeof jQuery == 'undefined'){    document.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-1.4.4.min.js' type='text/javascript'%3E%3C/script%3E"));}</script><script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script><script type="text/javascript">if (typeof $.ui == 'undefined'){    document.write(unescape("%3Cscript src='http://www.emailmeform.com/builder/js/jquery-ui-1.7.2.custom.min.js' type='text/javascript'%3E%3C/script%3E"));}</script><link rel="stylesheet" type="text/css" href="http://www.emailmeform.com/builder/styles/dynamic.php?t=post" /><script type="text/javascript" src="http://www.emailmeform.com/builder/js/dynamic.php?t=post&t2=0&use_CDN=true"></script><script> $(function() { $('#anchor_c4ZcprAXxM77771Rb').colorbox({width:'75%', height:'75%', iframe:true}); }) </script> -->
+
+<div>
+    <div id="success_msg"> </div>
+</div>
+<form name="contactForm" action="contact.php" method="post" id="contact_form" >
+	<input type="text" name="name" id="name" placeholder="Name" />
+	<input type="text" name="email" id="email" placeholder="Email" />
+	<input type="text" name="phone" id="phone" placeholder="Phone" />
+	<select name="type" id="type">
+		<option value="Web Development solutions">Web Development Solutions</option>
+		<option value="Mobile Development solutions">Mobile Development Solutions</option>
+		<option value="Video solutions">Video Solutions</option>
+	</select>
+	<textarea name="message" placeholder="Message" id="message"></textarea>
+
+	<button class="my-btn shadow" type="submit" onclick="submitForm();">Send</button>
+</form>
+
+<script src="js/jquery.js"></script>
+
+<script type="text/javascript">
+function submitForm(){
+	var s_name=$("#name").val();
+	var s_email=$("#email").val();
+	var s_phone=$("#phone").val();
+	var s_type=$("#type").val();
+	var s_message=$("#message").val();
+	$.post("contact.php",{name:s_name,email:s_email,type:s_type,phone:s_phone,message:s_message},
+	function(result){
+	  $('#success_msg').append(result);
+	});
+	$('#contact_form').hide();
+	return false;
+}
+</script>
