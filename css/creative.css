@@ -175,7 +175,17 @@ aside {
     font-family: Lato, Arial, Sans;	
     font-weight: 700;
     color: #2980b9;
-    padding: 17px;
+    padding: 10px;
+}
+
+.navbar-default .navbar-header .navbar-brand > img{
+    float: left;
+}
+
+.navbar-default .navbar-header .navbar-brand .site-name {
+    padding-left: 10px;
+    padding-top: 8px;
+    float: left;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -1013,7 +1023,7 @@ body {
 
 .address{
 	background: #8e44ad;
-    padding: 35px;
+    padding: 40px;
     font-size: 15px;
 }
 
